@@ -1,7 +1,5 @@
 class Song
-Song.count
-Song.artists
-Song.genres 
+attr_accessor
 
 
 
