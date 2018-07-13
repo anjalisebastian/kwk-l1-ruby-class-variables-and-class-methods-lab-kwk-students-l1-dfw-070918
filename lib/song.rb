@@ -12,7 +12,8 @@ def self.count
 end
 
 def self.genres 
-  @@genres
+  @@genres = []
+  
 end
 
 
