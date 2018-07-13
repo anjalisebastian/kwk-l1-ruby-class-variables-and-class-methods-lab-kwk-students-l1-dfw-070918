@@ -6,8 +6,10 @@ attr_accessor :name, :artist, :genre
 
 def initialize(name, artist, genre) 
   @@count +=1 
-  @@genres << genres
+  @@name << names
   @@artists << artists
+  @@genres << genres
+  
 end
   
 def self.count
