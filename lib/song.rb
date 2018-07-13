@@ -33,6 +33,8 @@ def self.genre_count
   @genres.each{|key| @@genre_count[key] +=1}
   @@genre_count
 end
-    
 
+def self.artist_count
+  @artists.each{|key| @@artist_count[key] +=1}
+  @@artist_count
 end
