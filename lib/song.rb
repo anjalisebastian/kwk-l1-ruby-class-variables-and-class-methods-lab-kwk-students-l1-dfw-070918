@@ -23,7 +23,7 @@ def self.genre
   
 end
 
-def self.artist
+def self.artists
   
 end
 
